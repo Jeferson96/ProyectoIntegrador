@@ -11,6 +11,10 @@ Login
             function registro() {
                 window.location = "Formularios/FormRegistro.php";
             }
+
+            function ingresar() {
+                window.location = "Formularios/IntroJuego.html";
+            }
         </script>
         <style>
             body {
@@ -71,7 +75,7 @@ Login
         </style>
     </head>
     <body>
-        <form action="Formularios/Proceso/proceso_Login.php" method="post">
+        <form action="Formularios/Clases/Proceso/ProcesoLogin.php" method="post">
             <div class="container">
                 <div class="divLogin">
                     <div class="justify-content-center" style="width: 100%;">
@@ -82,7 +86,7 @@ Login
                             <input type="password" name="userPassword" class="form-control input-sm chat-input" placeholder="Clave" required/>
                             </br>
                             <div class="botones">
-                                <button  name="login" value="1" class="btn btn-outline-success btn-md ">
+                                <button  name="login" value="1" class="btn btn-outline-success btn-md " >
                                     <strong>Ingresar</strong> 
                                 </button>    
                                 <button onclick="registro()" name="registrar" value="2" class="btn btn-outline-warning btn-md botonRegistrar">
