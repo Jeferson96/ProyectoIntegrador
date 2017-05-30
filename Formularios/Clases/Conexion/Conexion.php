@@ -15,5 +15,4 @@ class Conexion {
         }
         return $mySQL;
     }
-
 }

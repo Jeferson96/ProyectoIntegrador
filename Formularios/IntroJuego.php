@@ -90,9 +90,16 @@ and open the template in the editor.
             video.fillWidth {
                 width: 100%;
             }
+
+            #id_menu{
+
+                margin-top: 5%;
+            }
+
         </style>
     </head>
     <body> 
+        <!--Inicio del modal-->
         <div id="myModal"  >
             <div id="contenidomodal">
                 <div id="cabecera">
@@ -108,10 +115,29 @@ and open the template in the editor.
                             Your browser does not support the video tag.
                         </video>
                     </div>
-
                 </div>
             </div>
         </div>
-    </body>
+        <!--Fin del Modal-->
+    <center>
+        <div id="id_menu">
+            <button class="btn btn-outline-primary">
+                <strong> Inicio</strong>
+            </button>
+            <button class="btn btn-outline-primary">
+                <strong>Puntos</strong> 
+            </button>
+            <button class="btn btn-outline-primary">
+                <strong>Partidas Guardadas</strong>
+            </button>
+            <button class="btn btn-outline-primary">
+                <strong>Opciones</strong>
+            </button>
+            <button class="btn btn-outline-primary">
+                <strong>Extras</strong>
+            </button>
+        </div>
+    </center>
+</body>
 
 </html>
