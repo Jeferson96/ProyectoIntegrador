@@ -97,6 +97,14 @@ and open the template in the editor.
             }
 
         </style>
+        <script>
+
+            function redireccionar(valor) {
+                if (valor == "puntos") {
+                    window.location = "../Formularios/FormPuntos.php";
+                }
+            }
+        </script>
     </head>
     <body> 
         <!--Inicio del modal-->
@@ -124,7 +132,7 @@ and open the template in the editor.
             <button class="btn btn-outline-primary">
                 <strong> Inicio</strong>
             </button>
-            <button class="btn btn-outline-primary">
+            <button class="btn btn-outline-primary" onclick="redireccionar('puntos')">
                 <strong>Puntos</strong> 
             </button>
             <button class="btn btn-outline-primary">
